@@ -1,7 +1,7 @@
 # Snake
 Simple snake game
 
-###Requirements
+### Requirements
 
 To run project add following .jar file:
 - https://mvnrepository.com/artifact/org.swinglabs/swing-layout/1.0.3
