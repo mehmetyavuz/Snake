@@ -23,3 +23,5 @@
 hs_err_pid*
 /.idea/
 /Snake.iml
+/out/
+/src/META-INF/MANIFEST.MF

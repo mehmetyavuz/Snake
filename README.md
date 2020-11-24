@@ -3,9 +3,13 @@ Simple snake game codded with java.
 
 ### Requirements
 
-To run project add following .jar file:
+Libraries:
 - https://mvnrepository.com/artifact/org.swinglabs/swing-layout/1.0.3
-
-To save scores add following .jar file and have local mysql DB:
 - https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.22
-- DB name: Snake > Table name: Snake > Columns [ name (varchar), score (int) ]
+
+To save scores have following DB:
+
+- MySql DB : Snake
+    - Table : Snake
+        - Column 1 : name (varchar)
+        - Column 2 : score (int)
