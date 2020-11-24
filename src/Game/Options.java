@@ -1,12 +1,13 @@
 package Game;
 
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.JComboBox;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Locale;
 import java.util.Properties;
 import java.util.ResourceBundle;
-//import sun.security.util.Resources_de;
 
 /**
  *
@@ -31,7 +32,7 @@ public class Options extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jComboBox1 = new javax.swing.JComboBox();
+        jComboBox1 = new JComboBox();
         jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
@@ -40,7 +41,7 @@ public class Options extends javax.swing.JFrame {
         setTitle("Options");
         setLocation(new java.awt.Point(450, 250));
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ENGLISH", "DEUTSCH", "FRANÇAIS", "ITALIANO", "TÜRKÇE" }));
+        jComboBox1.setModel(new DefaultComboBoxModel(new String[] { "ENGLISH", "DEUTSCH", "FRANÇAIS", "ITALIANO", "TÜRKÇE" }));
 
         jLabel1.setText("Select Language :");
 
@@ -130,7 +131,7 @@ public class Options extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JComboBox jComboBox1;
+    private JComboBox jComboBox1;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }

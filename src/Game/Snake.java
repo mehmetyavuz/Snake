@@ -7,7 +7,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.sql.*;
-import java.util.Locale;
 import java.util.ResourceBundle;
 
 import static Game.GlobalFunctionStore.*;
@@ -60,7 +59,7 @@ public class Snake {
             SelectLanguage sl = new SelectLanguage();
             sl.setVisible(true);
         } else {
-            GlobalDataStore.rb = ResourceBundle.getBundle("Locale", new Locale(default_rb.getString("Language")));
+            GlobalDataStore.rb = ResourceBundle.getBundle("Locale_" + default_rb.getString("Language"));
             snake.begin();
         }
     }
@@ -147,7 +146,6 @@ public class Snake {
         frm.setVisible(false);
 
         snake();
-
     }
 
     // movements of snake
