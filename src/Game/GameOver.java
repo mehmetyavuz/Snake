@@ -71,8 +71,8 @@ public class GameOver {
 
         frame.setTitle(GlobalDataStore.rb.getString("GameOver.frame"));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setLocation(450, 250);
         frame.setSize(235, 220);
+        frame.setLocationRelativeTo(null);
         frame.setResizable(false);
         frame.setVisible(false);
         ////////////////////////////////////////////////////////////////////////

@@ -48,8 +48,8 @@ public class TopScores {
         
         frame.setTitle(GlobalDataStore.rb.getString("topScores.frame"));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setLocation(450,250);
         frame.setSize(240, 230);
+        frame.setLocationRelativeTo(null);
         frame.setResizable(false);
         frame.setVisible(true);
     }

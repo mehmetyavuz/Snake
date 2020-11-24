@@ -140,8 +140,8 @@ public class Snake {
 
         frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frm.setBackground(Color.BLACK);
-        frm.setLocation(350, 150);
         frm.setSize(400, 440);
+        frm.setLocationRelativeTo(null);
         frm.setLayout(null);
         frm.setResizable(false);
         frm.setVisible(false);

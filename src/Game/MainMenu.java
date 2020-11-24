@@ -33,8 +33,8 @@ public class MainMenu {
         frame.add(exitButton);
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setLocation(450, 250);
         frame.setSize(240, 180);
+        frame.setLocationRelativeTo(null);
         frame.setLayout(null);
         frame.setResizable(false);
         frame.setVisible(true);
