@@ -1,5 +1,7 @@
+This is my first project, developed in 2011.
+
 # Snake
-Simple snake game codded with java.
+Simple snake game coded with java.
 
 ### Requirements
 
@@ -10,6 +12,4 @@ Libraries:
 To save scores have following DB:
 
 - MySql DB : Snake
-    - Table : Snake
-        - Column 1 : name (varchar)
-        - Column 2 : score (int)
+    - Table name: Snake, Columns: name (varchar), score (int)
